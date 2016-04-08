@@ -1,0 +1,45 @@
+* {
+	font-family: "Source Sans Pro";
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Forum";
+}
+
+body {
+	background-image: url(background.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+#panel {
+	position: absolute;
+	top: 50%;
+	right: 50%;
+	transform: translateY(-50%);
+	color: #FFF;
+	text-align: right;
+	font-size: 1.5em;
+}
+
+#panel p, h1 {
+	margin-bottom: 1em;
+}
+
+#panel p {
+	padding-bottom: 0.5em;
+}
+
+#title {
+	font-size: 2em;
+	display: inline-block;
+}
