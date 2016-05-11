@@ -26,6 +26,7 @@ body {
 	top: 50%;
 	right: 50%;
 	width: 35%;
+	height: 90%;
 	transform: translateY(-50%);
 	color: #FFF;
 	text-align: right;
