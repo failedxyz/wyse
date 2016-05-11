@@ -13,7 +13,7 @@ body {
 }
 
 #overlay {
-	position: absolute;
+	position: fixed;
 	top: 0;
 	left: 0;
 	width: 100%;
@@ -25,6 +25,7 @@ body {
 	position: absolute;
 	top: 50%;
 	right: 50%;
+	width: 30%;
 	transform: translateY(-50%);
 	color: #FFF;
 	text-align: right;
