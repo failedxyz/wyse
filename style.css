@@ -25,11 +25,16 @@ body {
 	position: absolute;
 	top: 50%;
 	right: 50%;
-	width: 30%;
+	width: 35%;
 	transform: translateY(-50%);
 	color: #FFF;
 	text-align: right;
 	font-size: 1.5em;
+	overflow: scroll;
+}
+
+#panel::-webkit-scrollbar { 
+    display: none; 
 }
 
 #panel p, h1 {
