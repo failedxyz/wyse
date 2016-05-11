@@ -46,6 +46,10 @@ body {
 	padding-bottom: 0.5em;
 }
 
+#panel a {
+	color: #FFF;
+}
+
 #title {
 	font-size: 2em;
 	display: inline-block;
